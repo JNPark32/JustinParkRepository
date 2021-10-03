@@ -1,0 +1,231 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Kanit:wght@200;300;400;500;600;700;800&display=swap&effect=3d|shadow-multiple" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/51ba285dbc.js" crossorigin="anonymous"></script>
+		<title>JNP - Portfolio</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+
+    <canvas class="hero" id="canvas"></canvas>
+    <header id="intro">
+      <div data-shadow="CSS 3D Lettering" class="hero-area">
+        <div class="hero-text">
+          <h1 class="font-effect-3d d-anim">Justin Park</h1>
+          <p class="cred font-effect-3d d-anim-1">Master of Business Administration</p>
+          <p class="cred font-effect-3d d-anim-1">&</p>
+          <p class="cred font-effect-3d d-anim-1">Mechanical Engineer</p>
+          <div class="hvr-wobble-vertical dwnbtn"><a class="downbtn" href="#about-me"><i class="fas fa-arrow-down"></i></a></div>
+        </div>
+      </div>
+    </header>
+
+<!-- -->
+
+    <nav class="topnav" id="myTopnav">
+      <a href="#canvas" class="active"><img class="logo" src="src/images/JNPark.png" alt="JNPark"/></a>
+      <a class="nav-link" href="#about-me"><div class="box-3"><div class="btn btn-abt">About Me</div></div></a>
+			<a class="nav-link" href="#skills"><div class="box-3"><div class="btn btn-abt">Skills</div></div></a>
+			<a class="nav-link" href="#experience"><div class="box-3"><div class="btn btn-abt">Experience</div></div></a>
+
+      <a class="nav-link" href="projects/projects.html"><div class="box-3"><div class="btn btn-abt">Projects</div></div></a>
+
+		  <a class="nav-link" onclick="contactme()"><div class="box-3"><div class="btn btn-abt">Contact Me</div></div></a>
+      <a class="icon" onclick="myFunction()">
+        <i class="fa fa-compass fa-spin nav-color"></i>
+      </a>
+    </nav>
+
+<!-- -->
+
+		<div id="contact-me" class="footer">
+			<h2 class="headings font-effect-shadow-multiple">Contact Me</h2>
+			<form action="https://formsubmit.co/jnpark32@gmail.com" method="POST">
+				<div class="contact" align=center><u>Enter Your Name And Email Address:</u></div>
+				<input type="hidden" name="_subject" value="You Have Mail">
+				<div align=center>
+					<input class="contact-box" type="text" name="name" placeholder="John Doe" maxlength=30 required>
+				</div>
+				<div align=center>
+					<input class="contact-box" type="email" name="email" placeholder="someone@email.com" maxlength=40 required>
+				</div>
+				<input type="hidden" name="_next" value="thankyou.html">
+				<br>
+				<div align=center>
+					<textarea class="contact-box-1" align=center type="text" name="name" placeholder="write your message here..." maxlength=500 required></textarea>
+				</div>
+				<div align=center>
+					<button type="submit" class="msg_send msg_send-1 msg_send-sep icon-send">Send</button>
+				</div>
+			</form>
+		</div>
+
+<!-- -->
+
+		<div id="top" class="hide"><a class="gotopbtn" href="#"><i class="fas fa-arrow-up arrow"></i></a></div>
+
+		<video id="myVideo" autoplay loop muted>
+		  <source src="src/images/abt_bg.mov" type="video/mp4">
+		</video>
+
+    <section class="sub-section fade-in" id="about-me">
+      <div class="information">
+        <h2 class="headings h-flex font-effect-shadow-multiple">About Me
+					<div class="social">
+	          <div class="container">
+	            <a href="https://www.linkedin.com/in/justin-park-827487183/" target="_blank" rel="noopener noreferrer" class="social">
+	              <img class="lnkdn soc" src="src/images/Linkedin_logo.png" alt="LinkedIn"/>
+	            </a>
+	          </div>
+	        </div>
+				</h2>
+        <p>My name is Justin Park, and I am currently an MBA student at California
+          State University, Fullerton (CSUF). Prior to graduate school, I attended
+          the University of California, Irvine (UCI) where I received my B.S. degree
+          in Mechanical Engineering.<br></br>At UCI I was a part of the Kababayan Club
+          where they hosted a multitude of social events, workshops, study sessions,
+          and performance shows. I also enjoyed participating in the intramural sports
+          league at UCI which included both basketball and flag football. During my
+          time in college, I worked a few years in customer service as a server/cook
+          at the restaurant Tender Greens located at the Irvine Spectrum. During my
+          free time I enjoy playing the guitar, watching/playing basketball, and
+          listening to music.
+        </p>
+      </div>
+      <div class="headshot-container">
+        <img class="headshot" src="src/images/Profile_pic.png" alt="headshot"/>
+      </div>
+    </section>
+
+<!-- -->
+
+		<section class="sub-section3" id="skills">
+      <h2 class="headings font-effect-shadow-multiple fade-in">Skills</h2>
+			<div class="skill-container">
+				<div class="skill-stack fade-in">
+					<button class="skill-card hvr-bob glow-on-hover">
+						<img class="skill-image" src="src/images/SW_logo.png" alt="SolidWorks"/>
+					</button>
+				</div>
+				<div class="skill-stack fade-in">
+					<button class="skill-card hvr-bob glow-on-hover">
+						<img class="skill-image" src="src/images/HTML5_logo.png" alt="HTML"/>
+					</button>
+				</div>
+				<div class="skill-stack fade-in">
+					<button class="skill-card hvr-bob glow-on-hover">
+						<img class="skill-image" src="src/images/Microsoft_logo.png" alt="Microsoft"/>
+					</button>
+				</div>
+				<div class="skill-stack fade-in">
+					<button class="skill-card hvr-bob glow-on-hover">
+						<img class="skill-image" src="src/images/MySQL_logo.png" alt="MySQL"/>
+					</button>
+				</div>
+				<div class="skill-stack fade-in">
+					<button class="skill-card hvr-bob glow-on-hover">
+						<img class="skill-image" src="src/images/MSQL_logo.png" alt="Microsoft SQL"/>
+					</button>
+				</div>
+				<div class="skill-stack fade-in">
+					<button class="skill-card hvr-bob glow-on-hover">
+						<img class="skill-image" src="src/images/Python_logo.png" alt="Arduino"/>
+					</button>
+				</div>
+				<div class="skill-stack fade-in">
+					<button class="skill-card hvr-bob glow-on-hover">
+						<img class="skill-image" src="src/images/MATLAB_logo.png" alt="MATLAB"/>
+					</button>
+				</div>
+				<div class="skill-stack fade-in">
+					<button class="skill-card hvr-bob glow-on-hover">
+						<img class="skill-image" src="src/images/Arduino_logo.png" alt="Arduino"/>
+					</button>
+				</div>
+			</div>
+		</section>
+
+<!-- -->
+
+    <section class="sub-section2" id="experience">
+      <h2 class="headings font-effect-shadow-multiple fade-in">Experience</h2>
+      <div class="project-container">
+        <div class="project-card cw fade-in">
+          <img class="project-image" src="src/images/Core_logo.png" alt="IYBL"/>
+          <h3><u>Coreware Group</u></h3>
+          <p class="subtext-exp">Years of Experience: 1</p>
+          <hr/>
+          <p class="subtext">At Coreware Group my primary objective is to utilize
+                             HubSpot CRM in order to develop a sales pipeline. In
+                             addition, I also use my knowledge in the software
+                             development industry to develop unique and efficient
+                             software solutions for clients.</p>
+        </div>
+				<div class="project-card uc fade-in">
+          <img class="project-image" src="src/images/TEG_logo.png" alt="TEG"/>
+          <h3><u>UCI Thermoelectric Project</u></h3>
+          <p class="subtext-exp">Years of Experience: 1</p>
+          <hr/>
+          <p class="subtext">I was a member of the Thermoelectric Laboratory at UCI. As a
+                             part of TEG Design Team, I worked on the design and development
+                             of a TEG powered LED wristwatch. I managed the 3D design team where I
+                             was responsible for planning the design and assembly of the watch chassis.
+                             Time was also spent in lab collecting and analyzing data to maximize the efficiency of
+                             our design. SolidWorks, ANSYS, and Excel were used throughout the project.</p>
+        </div>
+        <div class="project-card tg fade-in">
+          <img class="project-image" src="src/images/TG_logo.png" alt="TenderGreens"/>
+          <h3><u>Tender Greens</u></h3>
+          <p class="subtext-exp">Years of Experience: 3</p>
+          <hr/>
+          <p class="subtext">I used my customer service skills to appropriatley
+                             take cusotmer orders and build rapport with regulars. I
+                             I was also responsible for serving food to customers
+                             as well as cleaning tables. After a year of working I
+                             was promoted to Station Chef where I helped prep food
+                             ingredients as well as make salads, salad dressing,
+                             side dishes, and drinks.</p>
+        </div>
+				<div class="project-card mf fade-in">
+          <img class="project-image" src="src/images/MF_logo.png" alt="Mendocino Farms"/>
+          <h3><u>Mendocino Farms</u></h3>
+          <p class="subtext-exp">Years of Experience: 1</p>
+          <hr/>
+          <p class="subtext">Front of the House. I was responsible for handling customer
+														 orders and payments using a POS system. My job also included
+														 building rapport with customers. I also cleaned/organized the
+														 front of the house and washed dishes.</p>
+        </div>
+        <div class="project-card sh fade-in">
+          <img class="project-image" src="src/images/SHHS_logo.png" alt="SHHS"/>
+          <h3><u>SHHS Varsity Basketball</u></h3>
+          <p class="subtext-exp">Years of Experience: 4</p>
+          <hr/>
+          <p class="subtext">I played four years of High School Basketball. During my four year tenure I
+                             recieved the CIF Scholar Athlete Award each year. I also recieved a Defensive
+                             Player of the Year Award and three Coach's Award from the Sunny Hills Basketball
+                             Program which are given out at annual team banquets.</p>
+        </div>
+				<div class="project-card arc fade-in">
+          <img class="project-image" src="src/images/ARC_logo.png" alt="American Red Cross"/>
+          <h3><u>American Red Cross</u></h3>
+          <p class="subtext-exp">Years of Experience: 3</p>
+          <hr/>
+          <p class="subtext">I volunteered at the American Red Cross while I was in
+						 								 high school. I participated in the cleaning of Orange County beaches where we
+														 helped organize and pick up trash. I also was a part of helping guide patients
+														 through blood drives.</p>
+        </div>
+      </div>
+    </section>
+
+<!-- -->
+
+
+
+		<script src="src/app.js"></script>
+  </body>
+</html>
