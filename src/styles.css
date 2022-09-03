@@ -353,7 +353,7 @@ u {
 @media screen and (max-width: 1080px) {
   .topnav.responsive {position: sticky;}
   .topnav.responsive .icon {
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 0;
   }
@@ -694,6 +694,13 @@ u {
    padding: 5px;
    background-color: rgb(220, 220, 220, 0.75);
    border-radius: 20px;
+}
+
+.gkn {
+    background-image: url('images/GKN_bg.jpg');
+    background-position: center;
+    background-size: 400px 650px;
+    background-repeat: no-repeat;
 }
 
 .cw {
