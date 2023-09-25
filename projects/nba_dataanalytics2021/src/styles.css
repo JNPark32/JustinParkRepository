@@ -1,0 +1,217 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: Gainsboro;
+}
+
+p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h2 {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.headings {
+  font-size: 70px;
+  font-weight: 600;
+  color: DarkSlateBlue;
+  text-shadow: -1px -1px 0 DarkSlateBlue, 1px -1px 0 DarkSlateBlue, -1px 1px 0 DarkSlateBlue, 1px 1px 0 DarkSlateBlue;
+}
+
+.a {
+  text-decoration: none;
+  color: black;
+  margin-top: 15px;
+}
+
+/* NBA Project */
+
+.nba {
+  align-items: center;
+  width: 1300px;
+  height: 950px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Nav Bar */
+
+.logo {
+  height: 60px;
+  margin: 0px;
+  border-radius: 20px;
+  border: Gainsboro solid 1px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.active {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 40px;
+  padding-bottom: 5px;
+}
+
+.logo:hover {
+  border: 1px inset rgba(255, 255, 255, 1);
+  box-shadow: 0 0 40px 40px rgb(64, 54, 124, 0.2) inset, 0 0 0 0 rgb(64, 54, 124, 0.2);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: Gainsboro;
+  border-top: 2px #cccccc solid;
+  border-bottom: 2px #cccccc solid;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 13px;
+  padding-bottom: 10px;
+}
+
+.icon {
+  font-size: 45px;
+  padding-top: 16px;
+  padding-right: 10px;
+}
+
+.nav-color {
+  color: DarkSlateBlue;
+}
+
+.nav-color:hover {
+  color: #6b5fb9;
+}
+
+.nav-color:active {
+  color: #508a3d;
+}
+
+@media screen and (max-width: 1080px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .topnav.responsive {position: sticky;}
+  .topnav.responsive .icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .active {
+    padding-bottom: 5px;
+  }
+}
+
+.box-3 {
+  background-color: Gainsboro;
+}
+
+.btn {
+  line-height: 40px;
+  height: 40px;
+  text-align: center;
+  width: auto;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn-abt {
+  color: Black;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.btn-abt::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(72, 61, 139, 0.2);
+  transition: all .5s;
+  border-radius: 150px;
+  border: 1px outset rgba(220, 220, 220, 1);
+}
+
+.btn-abt:hover::before {
+  opacity: 0 ;
+  transform: scale(0.5,0.5);
+}
+
+.btn-abt::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all .8s;
+  border: 1px inset rgba(220, 220, 220, 1);
+  transform: scale(1.2,1.2);
+  border-radius: 150px;
+}
+
+.btn-abt:hover::after {
+  opacity: 1;
+  transform: scale(1,1);
+}
+
+.btn-abt:active::before {
+  opacity: 1;
+  transform: scale(1,1);
+}
+.btn-abt:active::after {
+  opacity: 0 ;
+  transform: scale(0.5,0.5);
+}
