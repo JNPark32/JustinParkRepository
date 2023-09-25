@@ -8,7 +8,13 @@ function myFunction() {
   }
 }
 
+const navbut = document.getElementById('navbut');
 
+document.onclick = function (e) {
+    if (e.target.id !== 'navbut') {
+        navbut.classList.remove('responsive');
+    }
+}
 
 
 // Go To Top Button
