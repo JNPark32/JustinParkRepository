@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="../src/styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Kanit:wght@200;300;400;500;600;700;800&display=swap&effect=3d|shadow-multiple" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/51ba285dbc.js" crossorigin="anonymous"></script>
+    <title>JNP - Projects</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+
+    <nav class="topnav" id="myTopnav">
+      <a href="../index.html #canvas" class="active"><img class="logo" src="../src/images/JNPark.png" alt="JNPark"/></a>
+      <a class="nav-link" href="../index.html #about-me"><div class="box-3"><div class="btn btn-abt">About Me</div></div></a>
+			<a class="nav-link" href="../index.html #skills"><div class="box-3"><div class="btn btn-abt">Skills</div></div></a>
+			<a class="nav-link" href="../index.html #experience"><div class="box-3"><div class="btn btn-abt">Experience</div></div></a>
+      <a class="nav-link" href="projects.html"><div class="box-3"><div class="btn btn-abt">Projects</div></div></a>
+      <a class="nav-link" onclick="contactme()"><div class="box-3"><div class="btn btn-abt">Contact Me</div></div></a>
+      <a class="icon" onclick="myFunction()">
+        <i class="fa fa-gear fa-spin nav-color"></i>
+      </a>
+    </nav>
+
+<!-- -->
+
+  	<section class="sub-section4">
+  		<h2 class="headings font-effect-shadow-multiple">Projects</h2>
+
+  		<div class="app-container">
+  			<div>
+  				<a class="app-icon" href="../index.html #canvas"><img src="../src/images/JNPark.png" alt=""/></a>
+  			</div>
+  		</div>
+  		<p class="app-title">Justin Park's Website</p>
+  		<br></br>
+  		<div class="app-container">
+  			<div>
+  				<a class="app-icon" href="date-clock/date.html #dig-analog"><img class="clk-img" src="../src/images/Clock.png" alt=""/></a>
+  			</div>
+  		</div>
+  		<p class="app-title">Clock</p>
+			<br></br>
+  		<div class="app-container">
+  			<div>
+  				<a class="app-icon" href="nba_dataanalytics2021/nba_analytics.html"><img src="../src/images/NBA_logo.png" alt=""/></a>
+  			</div>
+  		</div>
+  		<p class="app-title">NBA 2021 Analytics<br>(Data Visualization)</p>
+
+
+      <br></br><br></br><br></br><br></br><br></br>
+
+<!-- -->
+
+		<div id="contact-me" class="footer">
+			<h2 class="headings font-effect-shadow-multiple">Contact Me</h2>
+			<form action="https://formsubmit.co/jnpark32@gmail.com" method="POST">
+				<div class="contact" align=center><u>Enter Your Name And Email Address:</u></div>
+				<input type="hidden" name="_subject" value="You Have Mail">
+				<div align=center>
+					<input class="contact-box" type="text" name="name" placeholder="John Doe" maxlength=30 required>
+				</div>
+				<div align=center>
+					<input class="contact-box" type="email" name="email" placeholder="someone@email.com" maxlength=40 required>
+				</div>
+				<input type="hidden" name="_next" value="thankyou.html">
+				<br>
+				<div align=center>
+					<textarea class="contact-box-1" align=center type="text" name="name" placeholder="write your message here..." maxlength=500 required></textarea>
+				</div>
+				<div align=center>
+					<button type="submit" class="msg_send msg_send-1 msg_send-sep icon-send">Send</button>
+				</div>
+			</form>
+		</div>
+
+<!-- -->
+
+		<button id="top" class="hide"><a class="gotopbtn" href="#"><i class="fas fa-arrow-up arrow"></i></a></button>
+		<script src="../src/app.js"></script>
+  </body>
+</html>
