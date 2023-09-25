@@ -710,7 +710,7 @@ u {
 }
 
 .project-card {
-    width: 400px;
+    width: 450px;
     box-shadow: 5px 5px 20px #4d4d4d;
     margin: 10px;
     border-radius: 10px;
@@ -836,7 +836,7 @@ u {
 .gkn {
     background-image: url('images/GKN_bg.jpg');
     background-position: center;
-    background-size: 450px 650px;
+    background-size: 500px 650px;
     background-repeat: no-repeat;
 }
 
@@ -848,7 +848,7 @@ u {
 .cw {
   background-image: url('images/CW_bg.png');
   background-position: center;
-  background-size: 450px 650px;
+  background-size: 500px 650px;
   background-repeat: no-repeat;
 }
 
@@ -860,7 +860,7 @@ u {
 .uc {
   background-image: url('images/UC_bg.jpg');
   background-position: center;
-  background-size: 450px 650px;
+  background-size: 500px 650px;
   background-repeat: no-repeat;
 }
 
