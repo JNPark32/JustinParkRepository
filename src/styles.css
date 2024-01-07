@@ -343,6 +343,7 @@ u {
 }
 
 .nav-link {
+<<<<<<< HEAD
   font-size: 25px;
   font-weight: 600;
   letter-spacing: 3px;
@@ -350,6 +351,14 @@ u {
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 15px;
+=======
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 17px;
+  padding-bottom: 10px;
+>>>>>>> 70102a406c66108d87632de3ee0dac9932b3dd27
 }
 
 .icon {
@@ -515,7 +524,7 @@ u {
   flex-direction: column;
   text-align: center;
   padding-bottom: 200px;
-  padding-top: 200px;
+  padding-top: 125px;
 }
 
 .skill-container {
@@ -698,6 +707,7 @@ u {
   display: flex;
   flex-direction: column;
   text-align: center;
+<<<<<<< HEAD
   padding-bottom: 50px;
   padding-top: 130px;
 }
@@ -708,6 +718,31 @@ u {
     text-align: center;
     padding-bottom: 175px;
     padding-top: 50px;
+=======
+  padding-bottom: 75px;
+  padding-top: 100px;
+}
+
+.sub-section2alt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 0px;
+}
+
+.project-card {
+    width: 450px;
+    box-shadow: 5px 5px 20px #4d4d4d;
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    margin: 40px;
+    transition: .8s;
+>>>>>>> 70102a406c66108d87632de3ee0dac9932b3dd27
 }
 
 .project-card {
@@ -759,6 +794,7 @@ u {
     padding-top: 5px;
     padding-bottom: 25px;
     margin: 40px;
+<<<<<<< HEAD
     transition: 1.2s;
 }
 
@@ -789,12 +825,26 @@ u {
     text-shadow: 0 0 3px #d1d1d1, 0 0 5px #545454;
 }
 
+=======
+    transition: .8s;
+}
+
+.edu-card:hover {
+    transition: .8s;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+>>>>>>> 70102a406c66108d87632de3ee0dac9932b3dd27
 .edu-image {
     margin-top: 10px;
     width: 400px;
     padding: 10px;
     background-color: rgb(220, 220, 220, 0.35);
     border-radius: 12px;
+<<<<<<< HEAD
     transition: 1.2s;
 }
 
@@ -810,6 +860,12 @@ u {
 
 .da-title {
     font-size: 25px;
+=======
+}
+
+.edu-title {
+    font-size: 23px;
+>>>>>>> 70102a406c66108d87632de3ee0dac9932b3dd27
     font-weight: 300;
     color: white;
     background-color: rgb(0, 0, 0, 0.5);
@@ -833,7 +889,11 @@ u {
     left: 0;
     background-image: linear-gradient(to bottom, hsl(44, 94%, 62%), hsl(220, 86%, 30%));
     z-index: -1;
+<<<<<<< HEAD
     transition: opacity 1s linear;
+=======
+    transition: opacity 0.5s linear;
+>>>>>>> 70102a406c66108d87632de3ee0dac9932b3dd27
     opacity: 0;
     border-radius: 10px;
 }
@@ -857,7 +917,11 @@ u {
     left: 0;
     background-image: linear-gradient(to bottom, hsl(26, 95%, 53%), hsl(220, 97%, 39%));
     z-index: -1;
+<<<<<<< HEAD
     transition: opacity 1s linear;
+=======
+    transition: opacity 0.5s linear;
+>>>>>>> 70102a406c66108d87632de3ee0dac9932b3dd27
     opacity: 0;
     border-radius: 10px;
 }
@@ -869,37 +933,64 @@ u {
 .gkn {
     background-image: url('images/GKN_bg.jpg');
     background-position: center;
+<<<<<<< HEAD
     background-size: 525px 650px;
+=======
+    background-size: 500px 650px;
+>>>>>>> 70102a406c66108d87632de3ee0dac9932b3dd27
     background-repeat: no-repeat;
 }
 
 .gkn:hover {
+<<<<<<< HEAD
     transition: 1.2s;
     padding: 30px;
+=======
+    transition: .8s;
+    padding: 20px;
+>>>>>>> 70102a406c66108d87632de3ee0dac9932b3dd27
 }
 
 .cw {
   background-image: url('images/CW_bg.png');
   background-position: center;
+<<<<<<< HEAD
   background-size: 525px 650px;
+=======
+  background-size: 500px 650px;
+>>>>>>> 70102a406c66108d87632de3ee0dac9932b3dd27
   background-repeat: no-repeat;
 }
 
 .cw:hover {
+<<<<<<< HEAD
     transition: 1.2s;
     padding: 30px;
+=======
+    transition: .8s;
+    padding: 20px;
+>>>>>>> 70102a406c66108d87632de3ee0dac9932b3dd27
 }
 
 .uc {
   background-image: url('images/UC_bg.jpg');
   background-position: center;
+<<<<<<< HEAD
   background-size: 525px 650px;
+=======
+  background-size: 500px 650px;
+>>>>>>> 70102a406c66108d87632de3ee0dac9932b3dd27
   background-repeat: no-repeat;
 }
 
 .uc:hover {
+<<<<<<< HEAD
     transition: 1.2s;
     padding: 30px;
+=======
+    transition: .8s;
+    padding: 20px;
+>>>>>>> 70102a406c66108d87632de3ee0dac9932b3dd27
 }
 
 .arc {
