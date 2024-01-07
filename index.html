@@ -1,0 +1,276 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Kanit:wght@200;300;400;500;600;700;800&display=swap&effect=3d|shadow-multiple" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/51ba285dbc.js" crossorigin="anonymous"></script>
+		<title>JNP - Portfolio</title>
+		<meta charset="UTF-8" />
+	</head>
+    <body>
+
+        <canvas class="hero" id="canvas"></canvas>
+        <header id="intro">
+            <div data-shadow="CSS 3D Lettering" class="hero-area">
+                <div class="hero-text">
+                    <h1 class="font-effect-3d d-anim">Justin Noah Park</h1>
+                    <p class="cred font-effect-3d d-anim-1">Program Management / Data Analyst</p>
+                    <p class="cred font-effect-3d d-anim-1">Program Officer</p>
+                    <p class="cred1 font-effect-3d d-anim-1">MBA</p>
+                    <div class="hvr-wobble-vertical dwnbtn"><a class="downbtn" href="#about-me"><i class="fas fa-arrow-down"></i></a></div>
+                </div>
+            </div>
+        </header>
+
+        <!-- -->
+
+        <nav class="topnav" id="myTopnav">
+            <div id="navbut">
+                <a href="#canvas" class="active" onclick="myFunction()"><img class="logo" src="src/images/JNPark.png" alt="JNPark" /></a>
+                <a class="nav-link" href="#about-me" onclick="myFunction()"><div class="box-3"><div class="btn btn-abt">About Me</div></div></a>
+                <a class="nav-link" href="#skills" onclick="myFunction()"><div class="box-3"><div class="btn btn-abt">Skills</div></div></a>
+                <a class="nav-link" href="#experience" onclick="myFunction()"><div class="box-3"><div class="btn btn-abt">Experience</div></div></a>
+                <a class="nav-link" href="#education" onclick="myFunction()"><div class="box-3"><div class="btn btn-abt">Education</div></div></a>
+            <!--
+            <a class="nav-link" href="projects/projects.html"><div class="box-3"><div class="btn btn-abt">Projects</div></div></a>
+            -->
+                <a class="nav-link" onclick="contactme(); myFunction();"><div class="box-3"><div class="btn btn-abt">Contact Me</div></div></a>
+                <a class="icon" onclick="myFunction()">
+                    <i class="fa fa-compass fa-spin nav-color"></i>
+                </a>
+            </div>
+        </nav>
+
+
+        <!-- -->
+
+        <div id="contact-me" class="footer">
+            <h2 class="headings font-effect-shadow-multiple">Contact Me</h2>
+            <form action="https://formsubmit.co/jnpark32@gmail.com" method="POST">
+                <div class="contact" align=center><u class="contact2">Enter Your Name And Email Address:</u></div>
+                <input type="hidden" name="_subject" value="You Have Mail">
+                <div align=center>
+                    <input class="contact-box" type="text" name="name" placeholder="John Doe" maxlength=30 required>
+                </div>
+                <div align=center>
+                    <input class="contact-box" type="email" name="email" placeholder="someone@email.com" maxlength=40 required>
+                </div>
+                <input type="hidden" name="_next" value="https://justin-park.netlify.app/message_sent.html">
+                <br>
+                <div align=center>
+                    <textarea class="contact-box-1" align=center type="text" name="name" placeholder="write your message here..." maxlength=500 required></textarea>
+                </div>
+                <div align=center>
+                    <button type="submit" class="msg_send msg_send-1 msg_send-sep icon-send">Send</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- -->
+
+        <div id="top" class="hide"><a class="gotopbtn" href="#"><i class="fas fa-arrow-up arrow"></i></a></div>
+
+        <video id="myVideo" autoplay loop muted>
+            <source src="src/images/abt_bg.mov" type="video/mp4">
+        </video>
+
+        <section class="sub-section fade-in" id="about-me">
+            <div class="information">
+                <h2 class="headings h-flex font-effect-shadow-multiple">
+                    About Me
+                    <div class="social">
+                        <div class="container">
+                            <a href="https://www.linkedin.com/in/justin-park-827487183/" target="_blank" rel="noopener noreferrer" class="social">
+                                <img class="lnkdn soc" src="src/images/Linkedin_logo.png" alt="LinkedIn" />
+                            </a>
+                        </div>
+                    </div>
+                </h2>
+                <p>
+                    My name is Justin Park, and I currently work as a Program Officer for GKN Aerospace.
+                    My passion for data and analytics have contributed to the development of my career in
+                    Program Management and Product Development. I manage programs in NPI and defense where
+                    I am able to utilize my engineering and business management background. My career goal is to
+                    leverage my love for technology and analytics to make a positive impact in the future of the 
+                    technology industry.<br></br>
+
+                    In 2020 I graduted from the University of California, Irvine with a B.S. degree in
+                    Mechanical Engineering. After graduating I made the decision to pursue my Master's
+                    in Business Administration at the Califronia State University, Fullerton where I
+                    graduated with a concentration in data analytics.<br></br>
+
+                    In my free time I enjoy working out, listening to music, watching sports, and spending
+                    time with my family and friends. I have a passion for learning and trying new things. 
+                    Over the past couple of years I have picked up playing golf and the guitar 
+                    Over the past couple of years I have picked up playing golf and playing the guitar 
+                    which have become two of my favorite hobbies.<br></br>
+
+
+                </p>
+            </div>
+            <div class="headshot-container">
+                <img class="headshot" src="src/images/Profile_pic.png" alt="headshot" />
+            </div>
+        </section>
+
+        <!-- -->
+
+        <section class="sub-section3" id="skills">
+            <h2 class="headings font-effect-shadow-multiple fade-in">Skills</h2>
+            <div class="skill-container">
+                <div class="skill-stack fade-in">
+                    <button class="skill-card hvr-bob glow-on-hover">
+                        <img class="skill-image" src="src/images/Microsoft_logo.png" alt="Microsoft" />
+                    </button>
+                </div>
+
+                <div class="skill-stack fade-in">
+                    <button class="skill-card hvr-bob glow-on-hover">
+                        <img class="skill-image" src="src/images/VBA_logo.png" alt="VBA" />
+                    </button>
+                </div>
+
+                <div class="skill-stack fade-in">
+                    <button class="skill-card hvr-bob glow-on-hover">
+                        <img class="skill-image" src="src/images/UiPath_logo.png" alt="UiPath" />
+                    </button>
+                </div>
+
+                <div class="skill-stack fade-in">
+                    <button class="skill-card hvr-bob glow-on-hover">
+                        <img class="skill-image" src="src/images/SQL_logo.png" alt="SQL" />
+                    </button>
+                </div>
+
+                <div class="skill-stack fade-in">
+                    <button class="skill-card hvr-bob glow-on-hover">
+                        <img class="skill-image" src="src/images/HTML5_logo.png" alt="HTML" />
+                    </button>
+                </div>
+
+                <div class="skill-stack fade-in">
+                    <button class="skill-card hvr-bob glow-on-hover">
+                        <img class="skill-image" src="src/images/SW_logo.png" alt="SolidWorks" />
+                    </button>
+                </div>
+
+                <div class="skill-stack fade-in">
+                    <button class="skill-card hvr-bob glow-on-hover">
+                        <img class="skill-image" src="src/images/Python_logo.png" alt="Python" />
+                    </button>
+                </div>
+
+                <div class="skill-stack fade-in">
+                    <button class="skill-card hvr-bob glow-on-hover">
+                        <img class="skill-image" src="src/images/Tableau_logo.png" alt="Tableau" />
+                    </button>
+                </div>
+
+                <div class="skill-stack fade-in">
+                    <button class="skill-card hvr-bob glow-on-hover">
+                        <img class="skill-image" src="src/images/R_logo.png" alt="R" />
+                    </button>
+                </div>
+
+                <div class="skill-stack fade-in">
+                    <button class="skill-card hvr-bob glow-on-hover">
+                        <img class="skill-image" src="src/images/MATLAB_logo.png" alt="MATLAB" />
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- -->
+
+        <section class="sub-section2" id="experience">
+            <h2 class="headings font-effect-shadow-multiple fade-in">Experience</h2>
+            <div class="project-container">
+
+                <div class="project-card gkn fade-in">
+                    <img class="project-image" src="src/images/GKN_logo.png" alt="IYBL" />
+                    <h3><u class="project-title">Program Officer</u></h3>
+                    <p class="subtext-exp">Years of Experience: 2</p>
+                    <hr />
+                    <p class="subtext">
+                        At GKN, I manage the CH-53K and other NPI Programs. I lead a cross-functional team to
+                        deliver transparencies to a multitude of customers. I develop and maintain program roadmaps, budgets, and schedules,
+                        ensuring alignment with strategic objectives. I am trained in Lean and Agile methodologies
+                        that are aimed to reduce waste, arrears and improve on-time delivery. I conduct daily communication
+                        with customers and monitor project risks and opportunities. I also work as a data analyst to support all the
+                        departments. I build and manage interactive dashboards and create automated tools to streamline repetetive tasks.
+                    </p>
+                </div>
+
+                <div class="project-card cw fade-in">
+                    <img class="project-image" src="src/images/Core_logo.png" alt="IYBL" />
+                    <h3><u class="project-title">Partnerships Manager</u></h3>
+                    <p class="subtext-exp">Years of Experience: 1</p>
+                    <hr />
+                    <p class="subtext">
+                        At Coreware Group, my primary objective was to utilize
+                        HubSpot CRM in order to develop a sales pipeline and build meaningful relationships
+                        HubSpot CRM in order to develop a sales pipeline and build meaning relationships
+                        with new clients. I was involved in a market analysis projet that had helped boost
+                        sales efficiency. In addition, I also used my knowledge in the software development
+                        industry to aid in the development of unique and efficient software solutions for clients.
+                    </p>
+                </div>
+
+                <div class="project-card uc fade-in">
+                    <img class="project-image" src="src/images/TEG_logo.png" alt="TEG" />
+                    <h3><u class="project-title">UCI Thermoelectric Lab</u></h3>
+                    <p class="subtext-exp">Years of Experience: 1</p>
+                    <hr />
+                    <p class="subtext">
+                        I was a member of the Thermoelectric Laboratory at the University of California, Irvine. 
+                        As a part of TEG Design Team, I worked on the design and development of a TEG powered 
+                        LED devices. I managed the 3D design team where I was responsible for planning the design 
+                        and assembly of our product. Research and analyses was also conducted in the lab collecting 
+                        and analyzing data to maximize the efficiency of our design. SolidWorks, ANSYS, and Excel 
+                        were used throughout the project.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="sub-section2alt" id="education">
+            <h2 class="headings font-effect-shadow-multiple fade-in">Education</h2>
+            <div class="project-container">
+
+                <div class="edu-card uci fade-in">
+                    <img class="edu-image" src="src/images/UCI_logo.png" alt="UCI" />
+                    <p class="subtext-edu">Bachelor of Science</p>
+                    <hr />
+                    <p class="edu-title">
+                        Mechanical Engineering
+                    </p>
+                </div>
+
+                <div class="edu-card csuf fade-in">
+                    <img class="edu-image" src="src/images/CSUF_logo.png" alt="CSUF" />
+                    <p class="subtext-edu">Master of Business Administration</p>
+                    <hr />
+                    <p class="da-title">
+                    <p class="edu-title">
+                        Data Analytics
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!--
+    <section>
+        <div>
+            <p class="last-line">coded in HTML</p>
+        </div>
+    </section>
+    -->
+        <!-- -->
+
+        <script src="src/app.js"></script>
+    </body>
+</html>
